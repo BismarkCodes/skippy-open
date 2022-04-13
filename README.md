@@ -17,7 +17,9 @@ To use Skippy, kindly download it from the [chrome web store](https://chrome.goo
 Content Script
 
 ```javascript
-// content script
+# content script
+
+// function to auto skip ads
 function autoSkip() {
   // set interval to check for existence of "Skip now" button every 500ms i.e 0.5s or half a second
   setInterval(() => {
