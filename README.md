@@ -6,7 +6,7 @@ Skippy automatically skips Ads that pop-up while watching youtube videos.
 
 <!-- show image on readme -->
 
-![](https://raw.githubusercontent.com/siddharthkp/skippy/master/skippy.png)
+![](https://github.com/bismarkokletey/skippy/blob/main/images/skippy%20capture.PNG?raw=true)
 
 ## Installation
 
