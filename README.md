@@ -58,12 +58,6 @@ No releases yet.
 
 No packages yet.
 
-## Contributors
-
-We currently don't have any contributors.
-
-Become a contributor by [opening a pull request]() or [opening an issue]() on Github.
-
 ## Contributing
 
 Pull requests are welcome!
@@ -72,7 +66,13 @@ For major changes, please open an issue to discuss what you would like to change
 
 Test your changes before submitting them.
 
-Kindly follow the [contributing guidelines]() to ensure your contribution is well-written.
+Kindly follow the [contributing guidelines](https://github.com/bismarkokletey/skippy/blob/main/CONTRIBUTING.md) to ensure your contribution is well-written.
+
+## Contributors
+
+We currently don't have any contributors.
+
+Become a contributor by [opening a pull request](https://github.com/bismarkokletey/skippy/pulls) or [opening an issue](https://github.com/bismarkokletey/skippy/issues) on Github.
 
 ## Author
 
@@ -82,6 +82,4 @@ I look forward to acknowledging you for your contributions.
 
 ## License
 
-<!-- add MIT LICENCE with link to LICENCE -->
-
-Skippy is licensed under the MIT License.
+Skippy is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
