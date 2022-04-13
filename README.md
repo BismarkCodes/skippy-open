@@ -1,1 +1,1 @@
-## Skippy - Youtube Ads Skipper Extension
+## Skippy - Youtube Ads Skipper Chrome Extension
