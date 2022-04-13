@@ -1,0 +1,8 @@
+.skippy-icon {
+  width: 25px;
+  height: 20px;
+  margin: 0px 10px 0px 15px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

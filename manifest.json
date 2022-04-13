@@ -1,0 +1,48 @@
+{
+  "name": "Skippy",
+  "description": "Youtube Ads Skipper",
+  "version": "1.0",
+  "manifest_version": 3,
+  "offline_enabled": true,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "tabs", "scripting"],
+  "action": {
+    "default_icon": {
+      "16": "/images/icon_16.png",
+      "32": "/images/icon_32.png",
+      "48": "/images/icon_48.png",
+      "128": "/images/icon_128.png",
+      "150": "/images/icon_150.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/icon_16.png",
+    "32": "/images/icon_32.png",
+    "48": "/images/icon_48.png",
+    "128": "/images/icon_128.png",
+    "150": "/images/icon_150.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/icon_16.png",
+        "images/icon_32.png",
+        "images/icon_48.png",
+        "images/icon_128.png",
+        "images/icon_150.png",
+        "readme.html",
+        "content.css"
+      ],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ]
+}
