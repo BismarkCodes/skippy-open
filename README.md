@@ -46,6 +46,12 @@ Some of the things we are working on include:
 
     * Hide Ads on other websites like Amazon, Flipkart, etc.
 
+## Contributors
+
+We currently don't have any contributors.
+
+Become a contributor by [opening a pull request]() or [opening an issue]() on Github.
+
 ## Contributing
 
 Pull requests are welcome!
