@@ -1,6 +1,8 @@
 # Skippy - Youtube Ads Skipper Chrome Extension
 
-Skippy is chrome extension that automatically skips Ads that pop-up while watching youtube videos.
+Skippy is chrome extension built using Javascript, Html, and Css.
+
+Skippy automatically skips Ads that pop-up while watching youtube videos.
 
 <!-- show image on readme -->
 
