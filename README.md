@@ -31,6 +31,8 @@ function autoSkip() {
     }
   }, 500);
 }
+
+autoSkip();
 ```
 
 Like most extensions, Skippy injects a content script file like the above into the youtube page.
