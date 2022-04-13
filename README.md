@@ -46,6 +46,14 @@ Some of the things we are working on include:
 
     * Hide Ads on other websites like Amazon, Flipkart, etc.
 
+## Releases
+
+No releases yet.
+
+## Packages
+
+No packages yet.
+
 ## Contributors
 
 We currently don't have any contributors.
