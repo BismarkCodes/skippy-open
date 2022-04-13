@@ -1,3 +1,14 @@
+/* 
+  ### Description
+    This file contains the styles for the popup html.
+
+  ### Author
+    - @bismarkokletey
+
+  ### License
+    - MIT License
+*/
+
 :root {
   --primary: #ff0000;
   --primary-light: #ff000099;
@@ -9,20 +20,23 @@
   --border-color: #cccccc;
   --border-color-secondary: #eeeeee;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: var(--bg);
   font-family: "Inter", sans-serif;
 }
+
 body {
   min-width: 270px;
   border: none;
   border-radius: 6px;
-}
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
 
 /* modal header */
@@ -31,7 +45,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 13px;
-  /* border-bottom: 1px solid var(--border-color); */
 }
 
 .modal-header-left {
@@ -44,7 +57,6 @@ body {
   color: var(--title);
   letter-spacing: 0.06rem;
   margin-bottom: 4px;
-  /* font-family: 'Lilita One', cursive; */
   font-family: "Inter", sans-serif;
   text-transform: capitalize;
   font-weight: 600;
@@ -64,282 +76,21 @@ body {
   color: var(--text);
   text-transform: capitalize;
 }
-.modal-content {
-  padding: 15px 17px;
-}
 
-.modal-content .modal-content-header {
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  margin-bottom: 25px;
-}
-
-.modal-content-header img {
-  margin-right: 15px;
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-
+/* seperator */
 .seperator {
   width: 20px;
   height: 20px;
 }
 
-.footer-text {
-  font-size: 0.69rem;
-  color: var(--text);
-}
-
-.live {
-  display: none;
-  font-size: 12px;
-  text-align: right;
-  animation: blink 2s infinite;
-  padding: 10px;
-  background-color: #ff0000;
-  color: white;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-
-.modal-content .content-body .content-body-title {
-  font-size: 0.8rem;
-  color: var(--text);
-  margin-bottom: 20px;
-  line-height: 22px;
-}
-
-.radio-group {
-  margin: 5px 0px;
-}
-
-.radio-item {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2px;
-  border-radius: 6px;
-  border: 0.6px solid #fff;
-  /* border: 1px solid #f5f5f599; */
-  margin-bottom: 10px;
-  /* background-color: #f5f5f599; */
-}
-
-.radio-item.active {
-  background-color: #ff000015;
-  border: 0.6px solid var(--border-color);
-  /* border: 1px solid var(--border-color); */
-}
-
-.radio-item:hover {
-  border: 0.6px solid var(--border-color);
-}
-
-.radio-item p {
-  cursor: pointer;
-  font-size: 0.8rem;
-  color: var(--text);
-  padding: 10px;
-}
-
-.radio-item select {
-  outline: none;
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 4px 8px;
-  margin-right: 5px;
-  font-size: 0.7rem;
-  color: var(--text);
-}
-
-.modal-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  /* border-top: 1px solid var(--border-color); */
-}
-
-.modal-footer .btn-primary {
-  background-color: var(--primary);
-  width: 100%;
-
-  color: var(--bg);
-  border: none;
-  outline: none;
-  padding: 10px 12px;
-  border-radius: 6px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.08rem;
-  cursor: pointer;
-  text-align: center;
-}
-
-.disabled {
-  /* background-color: #cccccc !important; */
-  /* color: #ffffff !important; */
-  cursor: not-allowed !important;
-}
-
-#select-box-text {
-  font-size: 0.7rem;
-  font-style: italic;
-  color: grey;
-  margin-top: 5px;
-  padding-left: 15px;
-}
-
-#seconds-selected {
-  font-weight: bold;
-}
-#modal-on-content {
-  transition: all 0.3s ease-in-out;
-}
-
-#modal-off-content {
-  /* display: none; */
+/* Content */
+#modal-content-content {
   padding: 10px 17px;
   transition: all 0.3s ease-in-out;
 }
 
-#modal-off-content p {
+#modal-content-content p {
   font-size: 0.8rem;
   color: var(--text);
   line-height: 1.5rem;
-}
-
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 35px;
-  height: 19px;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 12px;
-  width: 12px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-input:checked + .slider {
-  background-color: var(--primary-light);
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px var(--primary-light);
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(15px);
-  -ms-transform: translateX(15px);
-  transform: translateX(15px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-/* success popup */
-/* Popup container */
-.popup {
-  position: relative;
-  display: block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-  transition: all 0.3s ease-in-out;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  display: none !important;
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  /* fade in and out animation */
-  -webkit-animation: fadeinout 1s linear;
-  animation: fadeinout 0.5s linear;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeinout {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeinout {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }

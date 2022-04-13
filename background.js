@@ -1,22 +1,26 @@
-chrome.runtime.onMessage.addListener((msg, sender) => {
-  // First, validate the message's structure.
-  if (msg.from === "popup" && msg.subject === "data") {
-    // Enable the page-action for the requesting tab.
-    chrome.pageAction.show(sender.tab.id);
-  }
-});
+/* 
+    ## Background.js
+    
+    ## Notes
+      - This file is the background script for the extension.
+      - It handles the communication between the content 
+      script and the popup with the use of service workers.
 
-chrome.runtime.onInstalled.addListener(({ reason, version }) => {
-  if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
-    showReadme();
-  }
-});
+    ## To-Do
+      - Add support for other browsers
+      - Add user configurable options
 
-chrome.action.onClicked.addListener((tab) => {
-  showReadme();
-});
+    ## Author
+      - @bismarkokletey
 
-function showReadme(info, tab) {
-  let url = chrome.runtime.getURL("readme.html");
-  chrome.tabs.create({ url });
-}
+    ## License
+      - MIT License
+*/
+
+// set default values
+chrome.runtime.onInstalled.addListener(function () {
+  chrome.storage.sync.set({
+    skipAd: true,
+    skipAdTime: 500, // this will be used to set the interval for skipping the ad
+  });
+});
