@@ -33,15 +33,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": [
-        "images/icon_16.png",
-        "images/icon_32.png",
-        "images/icon_48.png",
-        "images/icon_128.png",
-        "images/icon_150.png",
-        "readme.html",
-        "content.css"
-      ],
+      "resources": ["images/icon_150.png", "content.css"],
       "matches": ["https://www.youtube.com/*"]
     }
   ]
