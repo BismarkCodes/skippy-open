@@ -39,7 +39,7 @@ Like most extensions, Skippy injects a content script file like the above into t
 
 Once injected, the content script listens for the existence of the `Skip now` button and clicks it whenever it is found.
 
-This is done by using the `setInterval` function which executes the function every 500ms i.e 0.5s or half a second.
+This is done by using the `setInterval` function which executes the `autoSkip()` function every 500ms i.e 0.5s or half a second.
 
 ## Roadmap
 
