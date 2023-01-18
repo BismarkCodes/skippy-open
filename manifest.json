@@ -1,9 +1,9 @@
 {
   "name": "Skippy",
   "description": "Youtube Ads Skipper",
-  "version": "1.0",
+  "version": "1.0.0.0",
   "manifest_version": 3,
-  "offline_enabled": false,
+  "offline_enabled": true,
   "background": {
     "service_worker": "background.js"
   },
@@ -33,7 +33,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["images/icon_150.png", "content.css"],
+      "resources": ["images/icon_150.png", "images/icon_48.png", "content.css"],
       "matches": ["https://www.youtube.com/*"]
     }
   ]

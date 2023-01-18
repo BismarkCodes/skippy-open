@@ -1,19 +1,49 @@
-# Skippy - Youtube Ads Skipper Chrome Extension
+# Skippy - The Ultimate YouTube Ad Skipper
 
-Skippy is chrome extension built using Javascript, Html, and Css.
-With jsut a few lines of code, Skippy automatically skips Ads that pop-up while watching youtube videos.
-
+Skippy is an open-source browser extension that allows users to automatically skip ads on YouTube videos.
 
 <!-- show image on readme -->
-![](https://github.com/bismarkokletey/skippy/blob/main/images/skippy%20capture.PNG?raw=true)
+
+![logo](https://github.com/bismarkokletey/skippy/blob/main/images/skippy%20capture.PNG?raw=true)
+
+## Problem
+
+Watching videos on YouTube can be a great way to spend your free time, but sometimes the ads that play before, during, or after the video can be boring, irrelevant, or even offensive. Skippy was created to solve this problem by automatically skipping ads, making the video-watching experience smoother and more enjoyable.
+
+## Features
+
+1. Current
+
+- Automatically skip ads on YouTube videos
+
+2. Future
+
+- Whitelist certain channels to keep ads on
+- Manually skip ads
+- Disable the ad skipper on specific videos
 
 ## Installation
 
-To use Skippy, kindly download it from the [chrome web store](https://chrome.google.com/webstore).
+- Clone or download the repository from GitHub.
+- Open the Chrome browser and navigate to the extensions page (chrome://extensions/)
+- Enable the "Developer mode" by clicking the toggle switch in the top right corner.
+- Click on the "Load unpacked" button
+- Navigate to the downloaded Skippy extension folder and select it.
+
+Skippy will now be installed and will automatically skip ads on YouTube videos.
+
+## Usage
+
+- Open a YouTube video and the ad will be automatically skipped.
+
+## Technologies Used
+
+- JavaScript
+- chrome.webRequest API
 
 ## How it Works
 
-Content Script
+Core Script
 
 ```javascript
 # content script
@@ -53,7 +83,7 @@ Some of the things we are working on include:
 
 ## Releases
 
-No releases yet.
+Skippy v1.0.1
 
 ## Packages
 
@@ -61,11 +91,12 @@ No packages yet.
 
 ## Contributing
 
-Pull requests are welcome!
+Contributing
+We welcome contributions and pull requests from the community. If you would like to contribute, please follow these steps:
 
-For major changes, please open an issue to discuss what you would like to change.
-
-Test your changes before submitting them.
+- Fork the repository and create a new branch for your changes
+- Make your changes and test them thoroughly
+- Submit a pull request, and we will review and merge your changes
 
 Kindly follow the [contributing guidelines](https://github.com/bismarkokletey/skippy/blob/main/CONTRIBUTING.md) to ensure your contribution is well-written.
 
