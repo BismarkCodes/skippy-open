@@ -60,11 +60,10 @@ Below is a list of the rules that we use to enforce consistency:
 if you dont have eslint installed, you can install it with:
 
     ```bash
-    npm install eslint
-
+        npm install eslint
     ```
 
-    Or with yarn:
+Or with yarn:
 
     ```bash
     yarn add eslint
@@ -76,7 +75,7 @@ if you use visual studio code, you can install eslint with:
     npm install -g eslint
     ```
 
-    Or with yarn:
+Or with yarn:
 
     ```bash
     yarn global add eslint
