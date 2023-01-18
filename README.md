@@ -98,7 +98,7 @@ We welcome contributions and pull requests from the community. If you would like
 - Make your changes and test them thoroughly
 - Submit a pull request, and we will review and merge your changes
 
-Kindly follow the [contributing guidelines](https://github.com/bismarkokletey/skippy/blob/main/CONTRIBUTING.md) to ensure your contribution is well-written.
+Kindly follow the [contributing guidelines](https://github.com/BismarkCodes/skippy-open/blob/main/CONTRIBUTION.md) to ensure your contribution is well-written.
 
 ## Contributors
 
